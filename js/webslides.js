@@ -3011,6 +3011,7 @@ var Zoom = function () {
         e.stopPropagation();
 //        _this2.zoomOut();
 //        _this2.ws_.goToSlide(elem.i);
+        console.log(`index.html#slide=${elem.i+1}`)
         window.location = `index.html#slide=${elem.i+1}`
         window.location.reload(true)
       });
