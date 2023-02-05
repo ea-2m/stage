@@ -3012,7 +3012,7 @@ var Zoom = function () {
 //        _this2.zoomOut();
 //        _this2.ws_.goToSlide(elem.i);
         console.log(`index.html#slide=${elem.i+1}`)
-        window.location = `index.html#slide=${elem.i+1}`
+        window.location = `index.html#slide=${elem.i+1}?a=${Math.random()}`
 //        window.location.reload(true)
       });
       wrap.appendChild(divLayer);
