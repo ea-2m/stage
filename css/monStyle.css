@@ -6,10 +6,6 @@ mark {
     font-weight: bold;
 }
 
-path {
-    transition: transform .3s ease;
-}
-
 article {
     background: linear-gradient(to top, rgba( 23, 20, 45 , 1), rgba( 23, 20, 45 , 0)),
                 linear-gradient(to right, rgba( 23, 20, 45 , 1), rgba( 23, 20, 45 , 0)),
@@ -123,4 +119,27 @@ p, li {
 
 tr:nth-child(odd) {
     background-color: #5a3471;
+}
+
+svg {
+    width: 1000px;
+    height: 600px;
+    cursor: default;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+    font-size: 16pt;
+}
+
+line.fleche {
+    marker-end: url(#pointe);
+    stroke: white;
+    stroke-width: 2px;
+}
+
+polygon {
+    stroke: white;
+    stroke-width: 2px;
 }
