@@ -101,6 +101,12 @@ img {
 }
 
 @media (min-width: 768px) {
+
+    .text-quote p {
+        font-size: 5rem;
+        line-height: 5.5rem;
+    }
+    
     .cta .benefit {
         border-image: none;
         border-left: 1px solid white;
